@@ -155,7 +155,7 @@
         "main_cast_members": "Robert Downey Jr., Chris Evans, Scarlett Johansson"
       },
       {
-        "id": 15,
+        "id": 17,
         "name": "Black Panther",
         "image": "https://m.media-amazon.com/images/M/MV5BYzVhZDYzNzYtZTJhZi00ZDIzLTg2YmEtNGQyMmI1NzJlMmMyXkEyXkFqcGdeQXVyNzg0NTkwNTU@._V1_.jpg",
         "category": "Action",
@@ -165,6 +165,5 @@
         "director": "Ryan Coogler",
         "main_cast_members": "Chadwick Boseman, Michael B. Jordan"
       }
-    
     ]
   }
