@@ -31,17 +31,29 @@ import {useState, useEffect} from "react"
 import Home from "./Home"
 import MovieList from "./MovieList"
 import MovieForm from "./MovieForm"
+import MovieProfile from './MovieProfile';
+import MovieSearch from './MovieSearch';
+import MovieDropdown from './MovieDropdown';
 
 function App() {
 
-  const [movies, setMovies] = useState([])
-  const [formData, setFormData] = useState({})
+  const [movies, setMovies] = useState([]);
+  const [originalMovies, setOriginalMovies] = useState([]);
+  const [formData, setFormData] = useState({});
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
     fetch('http://localhost:3000/movies')
     .then(response => response.json())
-    .then(movieData => setMovies(movieData))
+    .then(movieData => {
+      setMovies(movieData);
+      setOriginalMovies(movieData);
+    })
   }, [])
+
+  const filteredMovies = movies.filter(movie => {
+    return movie.name.toUpperCase().includes(searchText.toUpperCase());
+  })
 
   function updateFormData(event){
     setFormData({...formData, [event.target.name]: event.target.value})
@@ -62,6 +74,20 @@ function App() {
     .then(newMovie => setMovies([...movies, newMovie]))
   }
 
+  function handleSort(event) {
+    if(event.target.value === 'allMovies') {
+      setMovies(originalMovies)
+    }
+    else if(event.target.value === 'alphaNorm') {
+      const alphaNorm = [...movies].sort((a, b) => a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1);
+      setMovies(alphaNorm);
+    }
+    else if(event.target.value === 'alphaReverse') {
+      const alphaReverse = [...movies].sort((a, b) => a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1);
+      setMovies(alphaReverse);
+    }
+  }
+
   const routes = [
     {
       path: "/",
@@ -73,11 +99,19 @@ function App() {
         },
         {
           path: "/movies",
-          element: <MovieList movies={movies}/>
+          element: <>
+            <MovieSearch setSearchText={setSearchText} />
+            <MovieDropdown handleSort={handleSort} />
+            <MovieList movies={filteredMovies}/>
+          </>
         },
         {
           path: "/add_movie",
           element: <MovieForm updateFormData={updateFormData} addMovie={addMovie}/>
+        },
+        {
+          path: "/movies/:id",
+          element: <MovieProfile movies={movies}/>
         }
       ]
     }
