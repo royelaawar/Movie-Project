@@ -1,13 +1,60 @@
-body {
+html body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to bottom, #ed9898, #701313);
+  
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#profile-button{
+  color:white
+}
+#trailer-button{
+  color:white
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  margin: 10px; /* You can adjust this value to control the spacing */
+  max-width: 120px; /* Set the maximum width for the images */
+  box-shadow: 0 0 0 2px #0b0b0b, 0 0 0 4px #060505;
+}
+
+.photos-container {
+  display: flex;
+  /* flex-wrap: nowwrap; */
+  animation: moveRightToLeft 25s linear infinite;
+  width: max-content;
+
+}
+
+.photo {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+

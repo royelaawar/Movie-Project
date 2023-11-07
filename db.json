@@ -1,170 +1,184 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "name": "Avatar",
-        "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg",
-        "category": "Sci-fi/Action",
-        "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-        "year_released": "2009",
-        "box_office_earnings": "$2.93 Billion",
-        "director": "James Cameron",
-        "main_cast_members": "Sam Worthington, Zoe Saldans, Sigourney Weaver"
-      },
-      {
-        "id": 2,
-        "name": "Avengers: End Game",
-        "image": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_UF1000,1000_QL80_.jpg",
-        "category": "Sci-fi/Action",
-        "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
-        "year_released": "2019",
-        "box_office_earnings": "$2.79 Billion",
-        "directors": "Anthony Russo, Joe Russo",
-        "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
-      },
-      {
-        "id": 3,
-        "name": "Avatar: The Way of Water",
-        "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg",
-        "category": "Sci-fi/Action",
-        "description": "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.",
-        "year_released": "2022",
-        "box_office_earnings": "$2.32 Billion",
-        "director": "James Cameron",
-        "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
-      },
-      {
-        "id": 4,
-        "name": "Titanic",
-        "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
-        "category": "Drama",
-        "description": "James Cameron's Titanic is an epic, action-packed romance set against the ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the ship of dreams -- which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912.",
-        "year_released": "1997",
-        "box_office_earnings": "$2.26 Billion",
-        "director": "James Cameron",
-        "main_cast_members": "Kate Winslet, Leonardo DiCaprio"
-      },
-      {
-        "id": 5,
-        "name": "Star Wars: The Force Awakens",
-        "image": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg",
-        "category": "Sci-fi/Action",
-        "description": "Thirty years after the Battle of Endor, the First Order has risen from the fallen Galactic Empire and seeks to end the New Republic. The Resistance, backed by the Republic and led by General Leia Organa, opposes the First Order. Leia searches for her brother, Luke Skywalker, who is missing.",
-        "year_released": "2015",
-        "box_office_earnings": "$2.07 Billion",
-        "director": "J.J Abrams",
-        "main_cast_members": "Daisy Ridley, Harrison Ford"
-      },
-      {
-        "id": 6,
-        "name": "Avengers: Infinity War",
-        "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
-        "category": "Sci-Fi/Action",
-        "description": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
-        "year_released": "2018",
-        "box_office_earnings": "$2.05 Billion",
-        "director": "Anthony Russo, Joe Russo",
-        "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
-      },
-      {
-        "id": 7,
-        "name": "Spider-Man: No Way Home",
-        "image": "https://s3.amazonaws.com/media.thecrimson.com/photos/2021/11/29/194232_1353163.jpeg",
-        "category": "Action",
-        "description": "With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-        "year_released": "2021",
-        "box_office_earnings": "$1.92 Billion",
-        "director": "Jon Watts",
-        "main_cast_members": "Tom Holland, Zendaya"
-      },
-      {
-        "id": 8,
-        "name": "Jurassic World",
-        "image": "https://static.tumblr.com/0khk77t/nT7nfkm3m/social-share.jpg",
-        "category": "Sci-Fi/Action",
-        "description": "Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now, it's up to a former military man and animal expert (Chris Pratt) to use his special skills to save two young brothers and the rest of the tourists from an all-out, prehistoric assault.",
-        "year_released": "2015",
-        "box_office_earnings": "$1.67 Billion",
-        "director": "Colin Trevorrow",
-        "main_cast_members": "Bryce Howard, Chris Pratt"
-      },
-      {
-        "id": 9,
-        "name": "The Lion King",
-        "image": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg",
-        "category": "Drama",
-        "description": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
-        "year_released": "2019",
-        "box_office_earnings": "$1.66 Billion",
-        "director": "Jon Favreau",
-        "main_cast_members": "James Jones, Donald Glover"
-      },
-      {
-        "id": 10,
-        "name": "The Avengers",
-        "image": "https://filmartgallery.com/cdn/shop/products/The-Avengers-Vintage-Movie-Poster-Original-French-1-Panel-47x63.jpg?v=1663224709",
-        "category": "Sci-Fi/Action",
-        "description": "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's "dream team" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
-        "year_released": "2012",
-        "box_office_earnings": "$1.52 Billion",
-        "director": "Joss Whendon",
-        "main_cast_members": "Scarlett Johansson, Jeremy Renner, Robert Downey Jr."
-      },
-      {
-        "id": 11,
-        "name": "Furious 7",
-        "image": "https://m.media-amazon.com/images/I/81ClciXon2L._AC_UF1000,1000_QL80_.jpg",
-        "catgeory": "Action",
-        "description": "After defeating international terrorist Owen Shaw, Dominic Toretto (Vin Diesel), Brian O'Conner (Paul Walker) and the rest of the crew have separated to return to more normal lives. However, Deckard Shaw (Jason Statham), Owen's older brother, is thirsty for revenge. A slick government agent offers to help Dom and company take care of Shaw in exchange for their help in rescuing a kidnapped computer hacker who has developed a powerful surveillance program.",
-        "year_released": "2015",
-        "box_office_earnings": "$1.51 Billion",
-        "director": "James Wan",
-        "main_cast_members": "Paul Walker, Vin Diesel"
-      },
-      {
-        "id": 12,
-        "name": "Top Gun: Maverick",
-        "image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
-        "catgeory": "Action",
-        "description": "After more than 30 years of service as one of the Navy's top aviators, Pete Maverick Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.",
-        "year_released": "2022",
-        "box_office_earnings": "$1.49 Billion",
-        "director": "Joseph Kosinski",
-        "main_cast_members": "Tom Cruise, Miles Teller"
-      },
-      {
-        "id": 13,
-        "name": "Frozen 2",
-        "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg",
-        "category": "Drama",
-        "description": "Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.",
-        "year_released": "2019",
-        "box_office_earnings": "$1.45 Billion",
-        "director": "Jennifer Lee, Chris Buck",
-        "main_cast_members": "Kristen Bell, Idina Menzel"
-      },
-      {
-        "id": 14,
-        "name": "Avengers: Age of Ultron",
-        "image": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
-        "category": "Sci-Fi/Action",
-        "description": "When Tony Stark (Robert Downey Jr.) jump-starts a dormant peacekeeping program, things go terribly awry, forcing him, Thor (Chris Hemsworth), the Incredible Hulk (Mark Ruffalo) and the rest of the Avengers to reassemble. As the fate of Earth hangs in the balance, the team is put to the ultimate test as they battle Ultron, a technological terror hell-bent on human extinction. Along the way, they encounter two mysterious and powerful newcomers, Pietro and Wanda Maximoff.",
-        "year_released": "2015",
-        "box_office_earnings": "$1.40 Billion",
-        "director": "Joss Whendon", 
-        "main_cast_members": "Robert Downey Jr., Chris Evans, Scarlett Johansson"
-      },
-      {
-        "id": 15,
-        "name": "Black Panther",
-        "image": "https://m.media-amazon.com/images/M/MV5BYzVhZDYzNzYtZTJhZi00ZDIzLTg2YmEtNGQyMmI1NzJlMmMyXkEyXkFqcGdeQXVyNzg0NTkwNTU@._V1_.jpg",
-        "category": "Action",
-        "description": "After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.",
-        "year_released": "2018",
-        "box_office_earnings": "$1.34 Billion",
-        "director": "Ryan Coogler",
-        "main_cast_members": "Chadwick Boseman, Michael B. Jordan"
-      }
-    
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "name": "Avatar",
+      "image": "https://i.ebayimg.com/images/g/-dsAAOSwXS5ir7bq/s-l1200.webp",
+      "category": "Sci-fi/Action",
+      "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "year_released": "2009",
+      "box_office_earnings": "$2.93 Billion",
+      "director": "James Cameron",
+      "main_cast_members": "Sam Worthington, Zoe Saldans, Sigourney Weaver",
+      "trailer": "https://www.youtube.com/embed/5PSNL1qE6VY?si=NPtu8148x8T2ETL3"
+    },
+    {
+      "id": 2,
+      "name": "Avengers: End Game",
+      "image": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_UF1000,1000_QL80_.jpg",
+      "category": "Sci-fi/Action",
+      "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
+      "year_released": "2019",
+      "box_office_earnings": "$2.79 Billion",
+      "director": "Anthony Russo, Joe Russo",
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/hA6hldpSTF8?si=ndZRx__PU3NJ2tYx"
+    },
+    {
+      "id": 3,
+      "name": "Avatar: The Way of Water",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg",
+      "category": "Sci-fi/Action",
+      "description": "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.",
+      "year_released": "2022",
+      "box_office_earnings": "$2.32 Billion",
+      "director": "James Cameron",
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/d9MyW72ELq0?si=1E1SuTn9EM4OobBX"
+    },
+    {
+      "id": 4,
+      "name": "Titanic",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+      "category": "Drama",
+      "description": "James Cameron's Titanic is an epic, action-packed romance set against the ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the ship of dreams -- which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912.",
+      "year_released": "1997",
+      "box_office_earnings": "$2.26 Billion",
+      "director": "James Cameron",
+      "main_cast_members": "Kate Winslet, Leonardo DiCaprio",
+      "trailer": "https://www.youtube.com/embed/CHekzSiZjrY?si=i1mpPR5stkfPyp8_"
+    },
+    {
+      "id": 5,
+      "name": "Star Wars: The Force Awakens",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg",
+      "category": "Sci-fi/Action",
+      "description": "Thirty years after the Battle of Endor, the First Order has risen from the fallen Galactic Empire and seeks to end the New Republic. The Resistance, backed by the Republic and led by General Leia Organa, opposes the First Order. Leia searches for her brother, Luke Skywalker, who is missing.",
+      "year_released": "2015",
+      "box_office_earnings": "$2.07 Billion",
+      "director": "J.J Abrams",
+      "main_cast_members": "Daisy Ridley, Harrison Ford",
+      "trailer": "https://www.youtube.com/embed/sGbxmsDFVnE?si=GH-61Yraf-e39Nsl"
+    },
+    {
+      "id": 6,
+      "name": "Avengers: Infinity War",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+      "category": "Sci-Fi/Action",
+      "description": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
+      "year_released": "2018",
+      "box_office_earnings": "$2.05 Billion",
+      "director": "Anthony Russo, Joe Russo",
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?si=nd-Pjx0JSTJBUWB8"
+    },
+    {
+      "id": 7,
+      "name": "Spider-Man: No Way Home",
+      "image": "https://s3.amazonaws.com/media.thecrimson.com/photos/2021/11/29/194232_1353163.jpeg",
+      "category": "Action",
+      "description": "With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "year_released": "2021",
+      "box_office_earnings": "$1.92 Billion",
+      "director": "Jon Watts",
+      "main_cast_members": "Tom Holland, Zendaya",
+      "trailer": "https://www.youtube.com/embed/rt-2cxAiPJk?si=YGpbvXp5uN-IfQD4"
+    },
+    {
+      "id": 8,
+      "name": "Jurassic World",
+      "image": "https://pyxis.nymag.com/v1/imgs/1c6/c87/470d2565a6193275e8145aaef3be407b2f-14-jurassic-world.w710.jpg",
+      "category": "Sci-Fi/Action",
+      "description": "Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now, it's up to a former military man and animal expert (Chris Pratt) to use his special skills to save two young brothers and the rest of the tourists from an all-out, prehistoric assault.",
+      "year_released": "2015",
+      "box_office_earnings": "$1.67 Billion",
+      "director": "Colin Trevorrow",
+      "main_cast_members": "Bryce Howard, Chris Pratt",
+      "trailer": "https://www.youtube.com/embed/RFinNxS5KN4?si=imLOKf_armEytaVh"
+    },
+    {
+      "id": 9,
+      "name": "The Lion King",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg",
+      "category": "Drama",
+      "description": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.",
+      "year_released": "2019",
+      "box_office_earnings": "$1.66 Billion",
+      "director": "Jon Favreau",
+      "main_cast_members": "James Jones, Donald Glover",
+      "trailer": "https://www.youtube.com/embed/7TavVZMewpY?si=u7XpOxZ_YigzXs6G"
+    },
+    {
+      "id": 10,
+      "name": "The Avengers",
+      "image": "https://filmartgallery.com/cdn/shop/products/The-Avengers-Vintage-Movie-Poster-Original-French-1-Panel-47x63.jpg?v=1663224709",
+      "category": "Sci-Fi/Action",
+      "description": "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's 'dream team' are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
+      "year_released": "2012",
+      "box_office_earnings": "$1.52 Billion",
+      "director": "Joss Whendon",
+      "main_cast_members": "Scarlett Johansson, Jeremy Renner, Robert Downey Jr.",
+      "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8?si=CjAlwfZLMGlmLQkX"
+    },
+    {
+      "id": 11,
+      "name": "Furious 7",
+      "image": "https://m.media-amazon.com/images/I/81ClciXon2L._AC_UF1000,1000_QL80_.jpg",
+      "category": "Action",
+      "description": "After defeating international terrorist Owen Shaw, Dominic Toretto (Vin Diesel), Brian O'Conner (Paul Walker) and the rest of the crew have separated to return to more normal lives. However, Deckard Shaw (Jason Statham), Owen's older brother, is thirsty for revenge. A slick government agent offers to help Dom and company take care of Shaw in exchange for their help in rescuing a kidnapped computer hacker who has developed a powerful surveillance program.",
+      "year_released": "2015",
+      "box_office_earnings": "$1.51 Billion",
+      "director": "James Wan",
+      "main_cast_members": "Paul Walker, Vin Diesel",
+      "trailer": "https://www.youtube.com/embed/Skpu5HaVkOc?si=DXy4U6v9cas3cTPK"
+    },
+    {
+      "id": 12,
+      "name": "Top Gun: Maverick",
+      "image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "category": "Action",
+      "description": "After more than 30 years of service as one of the Navy's top aviators, Pete Maverick Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.",
+      "year_released": "2022",
+      "box_office_earnings": "$1.49 Billion",
+      "director": "Joseph Kosinski",
+      "main_cast_members": "Tom Cruise, Miles Teller",
+      "trailer": "https://www.youtube.com/embed/qSqVVswa420?si=Fv5rbDnkgaS1kvXs"
+    },
+    {
+      "id": 13,
+      "name": "Frozen 2",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg",
+      "category": "Drama",
+      "description": "Elsa the Snow Queen has an extraordinary gift -- the power to create ice and snow. But no matter how happy she is to be surrounded by the people of Arendelle, Elsa finds herself strangely unsettled. After hearing a mysterious voice call out to her, Elsa travels to the enchanted forests and dark seas beyond her kingdom -- an adventure that soon turns into a journey of self-discovery.",
+      "year_released": "2019",
+      "box_office_earnings": "$1.45 Billion",
+      "director": "Jennifer Lee, Chris Buck",
+      "main_cast_members": "Kristen Bell, Idina Menzel",
+      "trailer": "https://www.youtube.com/embed/Zi4LMpSDccc?si=yuNCMvfYKGU-qsc0"
+    },
+    {
+      "id": 14,
+      "name": "Avengers: Age of Ultron",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "category": "Sci-Fi/Action",
+      "description": "When Tony Stark (Robert Downey Jr.) jump-starts a dormant peacekeeping program, things go terribly awry, forcing him, Thor (Chris Hemsworth), the Incredible Hulk (Mark Ruffalo) and the rest of the Avengers to reassemble. As the fate of Earth hangs in the balance, the team is put to the ultimate test as they battle Ultron, a technological terror hell-bent on human extinction. Along the way, they encounter two mysterious and powerful newcomers, Pietro and Wanda Maximoff.",
+      "year_released": "2015",
+      "box_office_earnings": "$1.40 Billion",
+      "director": "Joss Whendon",
+      "main_cast_members": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+      "trailer": "https://www.youtube.com/embed/tmeOjFno6Do?si=8d_zOszqiodhnbIk"
+    },
+    {
+      "id": 15,
+      "name": "Black Panther",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzVhZDYzNzYtZTJhZi00ZDIzLTg2YmEtNGQyMmI1NzJlMmMyXkEyXkFqcGdeQXVyNzg0NTkwNTU@._V1_.jpg",
+      "category": "Action",
+      "description": "After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.",
+      "year_released": "2018",
+      "box_office_earnings": "$1.34 Billion",
+      "director": "Ryan Coogler",
+      "main_cast_members": "Chadwick Boseman, Michael B. Jordan",
+      "trailer": "https://www.youtube.com/embed/xjDjIWPwcPU?si=FJBe_nJRayGmSzJ7"
+    }
+  ]
+}
