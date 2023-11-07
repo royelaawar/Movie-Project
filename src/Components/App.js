@@ -34,6 +34,8 @@ import MovieForm from "./MovieForm"
 import MovieProfile from './MovieProfile';
 import MovieSearch from './MovieSearch';
 import MovieDropdown from './MovieDropdown';
+import VideoBackground from './VideoBackground';
+import SearchAndDropdown from './SearchAndDropdown';
 
 function App() {
 
@@ -91,7 +93,10 @@ function App() {
   const routes = [
     {
       path: "/",
-      element: <Home/>,
+      element: <>
+        <VideoBackground/>
+        <Home/>
+      </>,
       children: [
         {
           path: "/",
@@ -100,8 +105,9 @@ function App() {
         {
           path: "/movies",
           element: <>
-            <MovieSearch setSearchText={setSearchText} />
-            <MovieDropdown handleSort={handleSort} />
+            {/* <MovieSearch setSearchText={setSearchText} />
+            <MovieDropdown handleSort={handleSort} /> */}
+            <SearchAndDropdown setSearchText={setSearchText} handleSort={handleSort}/>
             <MovieList movies={filteredMovies}/>
           </>
         },
@@ -120,7 +126,7 @@ function App() {
   const router = createBrowserRouter(routes)
 
   return (
-    <div className="App">
+    <div className="App" id="background-video">
         <RouterProvider router={router} />
     </div>
   );

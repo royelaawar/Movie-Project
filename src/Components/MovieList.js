@@ -7,9 +7,9 @@ function MovieList({movies}){
         return <Movie key={movie.id} movie={movie}/>
     })
 
-    return <ul>
+    return <div id="movieList" style={{padding: "10rem"}}>
         {movieComponents}
-    </ul>
+    </div>
 }
 
 export default MovieList

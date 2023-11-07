@@ -19,7 +19,7 @@
       "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
       "year_released": "2019",
       "box_office_earnings": "$2.79 Billion",
-      "directors": "Anthony Russo, Joe Russo",
+      "director": "Anthony Russo, Joe Russo",
       "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
     },
     {
@@ -114,7 +114,7 @@
       "id": 11,
       "name": "Furious 7",
       "image": "https://m.media-amazon.com/images/I/81ClciXon2L._AC_UF1000,1000_QL80_.jpg",
-      "catgeory": "Action",
+      "category": "Action",
       "description": "After defeating international terrorist Owen Shaw, Dominic Toretto (Vin Diesel), Brian O'Conner (Paul Walker) and the rest of the crew have separated to return to more normal lives. However, Deckard Shaw (Jason Statham), Owen's older brother, is thirsty for revenge. A slick government agent offers to help Dom and company take care of Shaw in exchange for their help in rescuing a kidnapped computer hacker who has developed a powerful surveillance program.",
       "year_released": "2015",
       "box_office_earnings": "$1.51 Billion",
@@ -125,7 +125,7 @@
       "id": 12,
       "name": "Top Gun: Maverick",
       "image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
-      "catgeory": "Action",
+      "category": "Action",
       "description": "After more than 30 years of service as one of the Navy's top aviators, Pete Maverick Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.",
       "year_released": "2022",
       "box_office_earnings": "$1.49 Billion",
@@ -164,6 +164,17 @@
       "box_office_earnings": "$1.34 Billion",
       "director": "Ryan Coogler",
       "main_cast_members": "Chadwick Boseman, Michael B. Jordan"
+    },
+    {
+      "name": "hello",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_hcnVTH8BM07mtfN3z5HT7T5s0uu7MSjkg&usqp=CAU",
+      "category": "test",
+      "description": "test",
+      "year_released": "2399",
+      "box_office_earnings": "200,000",
+      "director": "Jon Favreau",
+      "main_cast_members": "Tony Stark",
+      "id": 16
     }
   ]
 }

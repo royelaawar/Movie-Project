@@ -1,0 +1,14 @@
+import React from 'react';
+import backgroundVideo from '../pop_corn_black_side.mp4';
+
+const VideoBackground = () => {
+  return (
+    // <video autoPlay muted loop id='video'>
+    //     <source src={ backgroundVideo } type="video/mp4" />
+    //     Your browser does not support the video tag.
+    // </video>
+    <video src={ backgroundVideo } muted autoPlay loop id='backgroundVideo'></video>
+  );
+};
+
+export default VideoBackground;
