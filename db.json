@@ -3,13 +3,14 @@
     {
       "id": 1,
       "name": "Avatar",
-      "image": "https://i.etsystatic.com/27725708/r/il/008c5a/2904647259/il_fullxfull.2904647259_ilg7.jpg",
+      "image": "https://i.ebayimg.com/images/g/-dsAAOSwXS5ir7bq/s-l1200.webp",
       "category": "Sci-fi/Action",
       "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
       "year_released": "2009",
       "box_office_earnings": "$2.93 Billion",
       "director": "James Cameron",
-      "main_cast_members": "Sam Worthington, Zoe Saldans, Sigourney Weaver"
+      "main_cast_members": "Sam Worthington, Zoe Saldans, Sigourney Weaver",
+      "trailer": "https://www.youtube.com/embed/5PSNL1qE6VY?si=NPtu8148x8T2ETL3"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "year_released": "2019",
       "box_office_earnings": "$2.79 Billion",
       "director": "Anthony Russo, Joe Russo",
-      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/hA6hldpSTF8?si=ndZRx__PU3NJ2tYx"
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "year_released": "2022",
       "box_office_earnings": "$2.32 Billion",
       "director": "James Cameron",
-      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/d9MyW72ELq0?si=1E1SuTn9EM4OobBX"
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "year_released": "1997",
       "box_office_earnings": "$2.26 Billion",
       "director": "James Cameron",
-      "main_cast_members": "Kate Winslet, Leonardo DiCaprio"
+      "main_cast_members": "Kate Winslet, Leonardo DiCaprio",
+      "trailer": "https://www.youtube.com/embed/CHekzSiZjrY?si=i1mpPR5stkfPyp8_"
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "year_released": "2015",
       "box_office_earnings": "$2.07 Billion",
       "director": "J.J Abrams",
-      "main_cast_members": "Daisy Ridley, Harrison Ford"
+      "main_cast_members": "Daisy Ridley, Harrison Ford",
+      "trailer": "https://www.youtube.com/embed/sGbxmsDFVnE?si=GH-61Yraf-e39Nsl"
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "year_released": "2018",
       "box_office_earnings": "$2.05 Billion",
       "director": "Anthony Russo, Joe Russo",
-      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth"
+      "main_cast_members": "Robert Downey Jr, Chris Evans, Chris Hemsworth",
+      "trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?si=nd-Pjx0JSTJBUWB8"
     },
     {
       "id": 7,
@@ -75,18 +81,20 @@
       "year_released": "2021",
       "box_office_earnings": "$1.92 Billion",
       "director": "Jon Watts",
-      "main_cast_members": "Tom Holland, Zendaya"
+      "main_cast_members": "Tom Holland, Zendaya",
+      "trailer": "https://www.youtube.com/embed/rt-2cxAiPJk?si=YGpbvXp5uN-IfQD4"
     },
     {
       "id": 8,
       "name": "Jurassic World",
-      "image": "https://static.tumblr.com/0khk77t/nT7nfkm3m/social-share.jpg",
+      "image": "https://pyxis.nymag.com/v1/imgs/1c6/c87/470d2565a6193275e8145aaef3be407b2f-14-jurassic-world.w710.jpg",
       "category": "Sci-Fi/Action",
       "description": "Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now, it's up to a former military man and animal expert (Chris Pratt) to use his special skills to save two young brothers and the rest of the tourists from an all-out, prehistoric assault.",
       "year_released": "2015",
       "box_office_earnings": "$1.67 Billion",
       "director": "Colin Trevorrow",
-      "main_cast_members": "Bryce Howard, Chris Pratt"
+      "main_cast_members": "Bryce Howard, Chris Pratt",
+      "trailer": "https://www.youtube.com/embed/RFinNxS5KN4?si=imLOKf_armEytaVh"
     },
     {
       "id": 9,
@@ -97,7 +105,8 @@
       "year_released": "2019",
       "box_office_earnings": "$1.66 Billion",
       "director": "Jon Favreau",
-      "main_cast_members": "James Jones, Donald Glover"
+      "main_cast_members": "James Jones, Donald Glover",
+      "trailer": "https://www.youtube.com/embed/7TavVZMewpY?si=u7XpOxZ_YigzXs6G"
     },
     {
       "id": 10,
@@ -108,7 +117,8 @@
       "year_released": "2012",
       "box_office_earnings": "$1.52 Billion",
       "director": "Joss Whendon",
-      "main_cast_members": "Scarlett Johansson, Jeremy Renner, Robert Downey Jr."
+      "main_cast_members": "Scarlett Johansson, Jeremy Renner, Robert Downey Jr.",
+      "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8?si=CjAlwfZLMGlmLQkX"
     },
     {
       "id": 11,
@@ -119,7 +129,8 @@
       "year_released": "2015",
       "box_office_earnings": "$1.51 Billion",
       "director": "James Wan",
-      "main_cast_members": "Paul Walker, Vin Diesel"
+      "main_cast_members": "Paul Walker, Vin Diesel",
+      "trailer": "https://www.youtube.com/embed/Skpu5HaVkOc?si=DXy4U6v9cas3cTPK"
     },
     {
       "id": 12,
@@ -130,7 +141,8 @@
       "year_released": "2022",
       "box_office_earnings": "$1.49 Billion",
       "director": "Joseph Kosinski",
-      "main_cast_members": "Tom Cruise, Miles Teller"
+      "main_cast_members": "Tom Cruise, Miles Teller",
+      "trailer": "https://www.youtube.com/embed/qSqVVswa420?si=Fv5rbDnkgaS1kvXs"
     },
     {
       "id": 13,
@@ -141,7 +153,8 @@
       "year_released": "2019",
       "box_office_earnings": "$1.45 Billion",
       "director": "Jennifer Lee, Chris Buck",
-      "main_cast_members": "Kristen Bell, Idina Menzel"
+      "main_cast_members": "Kristen Bell, Idina Menzel",
+      "trailer": "https://www.youtube.com/embed/Zi4LMpSDccc?si=yuNCMvfYKGU-qsc0"
     },
     {
       "id": 14,
@@ -152,7 +165,8 @@
       "year_released": "2015",
       "box_office_earnings": "$1.40 Billion",
       "director": "Joss Whendon",
-      "main_cast_members": "Robert Downey Jr., Chris Evans, Scarlett Johansson"
+      "main_cast_members": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+      "trailer": "https://www.youtube.com/embed/tmeOjFno6Do?si=8d_zOszqiodhnbIk"
     },
     {
       "id": 15,
@@ -163,7 +177,8 @@
       "year_released": "2018",
       "box_office_earnings": "$1.34 Billion",
       "director": "Ryan Coogler",
-      "main_cast_members": "Chadwick Boseman, Michael B. Jordan"
+      "main_cast_members": "Chadwick Boseman, Michael B. Jordan",
+      "trailer": "https://www.youtube.com/embed/xjDjIWPwcPU?si=FJBe_nJRayGmSzJ7"
     }
   ]
 }
