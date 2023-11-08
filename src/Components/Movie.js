@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 
@@ -29,7 +29,8 @@ function Movie({ movie, handleDelete }) {
                                         <p>{movie.description}</p>
                                         <br />
                                         {/* <a href="#" class="btn btn-primary btn-sm float-right">Read More</a> */}
-                                        <Button variant="primary"><Link to={`/movies/${movie.id}`} id="profileLink" style={{color: "white"}} >More Details</Link></Button>
+                                        {/* <Button variant="primary"><Link to={`/movies/${movie.id}`} id="profileLink" style={{color: "white"}} >More Details</Link></Button> */}
+                                        <Button variant="primary" href={`/movies/${movie.id}`}>More Details</Button>
                                         <br></br>
                                         <br></br>
                                         <Button variant="secondary" onClick={() => handleDelete(movie.name, movie.id)} >Delete</Button>
