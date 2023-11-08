@@ -37,6 +37,14 @@
   }
 }
 
+.mb-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#movieList {
+  padding-top: 6rem !important;
+}
 /* #background-video {
   position: absolute;
   top: 0;

@@ -164,17 +164,6 @@
       "box_office_earnings": "$1.34 Billion",
       "director": "Ryan Coogler",
       "main_cast_members": "Chadwick Boseman, Michael B. Jordan"
-    },
-    {
-      "name": "hello",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_hcnVTH8BM07mtfN3z5HT7T5s0uu7MSjkg&usqp=CAU",
-      "category": "test",
-      "description": "test",
-      "year_released": "2399",
-      "box_office_earnings": "200,000",
-      "director": "Jon Favreau",
-      "main_cast_members": "Tony Stark",
-      "id": 16
     }
   ]
 }
