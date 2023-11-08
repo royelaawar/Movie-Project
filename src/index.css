@@ -6,7 +6,7 @@ html body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: linear-gradient(to bottom, #ed9898, #701313);
+  background-color: dimgray;
   
   width: 100vw;
   overflow-x: hidden;
@@ -32,13 +32,14 @@ code {
 .photo {
   margin: 10px; /* You can adjust this value to control the spacing */
   max-width: 120px; /* Set the maximum width for the images */
-  box-shadow: 0 0 0 2px #0b0b0b, 0 0 0 4px #060505;
+  border-radius: 10%;
+  box-shadow: 0 0 0 3px #040404, 0 0 0 4px #f8f6f6;
 }
 
 .photos-container {
   display: flex;
   /* flex-wrap: nowwrap; */
-  animation: moveRightToLeft 25s linear infinite;
+  animation: moveRightToLeft 45s linear infinite;
   width: max-content;
 
 }
@@ -58,3 +59,22 @@ code {
   }
 }
 
+.movie-title {
+  /* Define your desired styles here */
+  font-size: 48px;
+  color: #ef0606;
+  font-family: 'Star Jedi', sans-serif;
+  text-align: center;
+  /* Add more styles as needed */
+}
+
+.card {
+  width: 35rem;
+  margin: 0 auto; /* Horizontally center the element */
+  text-align: center; 
+}
+
+.card-body {
+  font-size: 20px;
+  
+}

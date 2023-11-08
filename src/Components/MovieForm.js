@@ -1,23 +1,5 @@
 import { useNavigate } from "react-router-dom"
 
-// function MovieForm({updateFormData, addMovie}){
-
-//     const navigate = useNavigate()
-
-//     return <form onSubmit={(event) => {
-//         addMovie(event)
-//         navigate('/movies')
-//     }}>
-//         <input onChange={updateFormData} name="name" placeholder="Name"/>
-//         <input onChange={updateFormData} name="image" placeholder="Image"/>
-//         <input onChange={updateFormData} name="category" placeholder="Category"/>
-//         <input onChange={updateFormData} name="description" placeholder="Description"/>
-//         <input type="submit"/>
-//     </form>
-// }
-
-// export default MovieForm
-
 function MovieForm({ updateFormData, addMovie }) {
 
 

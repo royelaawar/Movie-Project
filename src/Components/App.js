@@ -6,9 +6,13 @@ import Home from "./Home"
 import MovieList from "./MovieList"
 import MovieForm from "./MovieForm"
 import MovieProfile from './MovieProfile';
-import MovieSearch from './MovieSearch';
-import MovieDropdown from './MovieDropdown';
-import '../index.css'
+// import MovieSearch from './MovieSearch';
+// import MovieDropdown from './MovieDropdown';
+import '../index.css';
+import VideoBackground from './VideoBackground'
+import SearchAndDropdown from './SearchAndDropdown'
+import HomeCardComponent from './HomeCardComponent'
+import audioFile from "./sound.mp3"
 
 function App() {
 
@@ -63,21 +67,40 @@ function App() {
     }
   }
 
+  function handleDelete(name, id) {
+    fetch(`http://localhost:3000/movies/${id}`, {
+      method: "DELETE"
+    })
+    setMovies(movies.filter(movie => {
+      return movie.name !== name;
+    }))
+  }
+
   const routes = [
     {
       path: "/",
-      element: <Home movies={ movies }/>,
+      element: <>
+      <VideoBackground/>
+      <Home movies={ movies }/>,
+      </>,
       children: [
         {
           path: "/",
-          element: <h1>Welcome to our Movie Database</h1>
+          element: <>
+          <HomeCardComponent/>,
+          <audio controls autoPlay preload="auto">
+                <source src={audioFile} type="audio/mp3" />
+            </audio>
+            </>
+          
         },
         {
           path: "/movies",
           element: <>
-            <MovieSearch setSearchText={setSearchText} />
-            <MovieDropdown handleSort={handleSort} />
-            <MovieList movies={filteredMovies}/>
+            {/* <MovieSearch setSearchText={setSearchText} />
+            <MovieDropdown handleSort={handleSort} /> */}
+            <MovieList movies={filteredMovies} handleDelete={handleDelete}/>
+            <SearchAndDropdown setSearchText={setSearchText} handleSort={handleSort}/>
           </>
         },
         {
@@ -95,7 +118,7 @@ function App() {
   const router = createBrowserRouter(routes)
 
   return (
-    <div className="App">
+    <div className="App" id="background-video">
         <RouterProvider router={router} />
     </div>
   );

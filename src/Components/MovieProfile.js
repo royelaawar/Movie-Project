@@ -20,7 +20,7 @@ function MovieProfile({ movies }) {
     return (
         <div>
             <li>
-                <h1>{movie.name}</h1>
+                <h1 class='movie-title'>{movie.name}</h1>
                     <iframe
                     width="560"
                     height="315"
@@ -30,6 +30,7 @@ function MovieProfile({ movies }) {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                     ></iframe>
+                {/* <img src={movie.image} alt={movie.name} />     */}
                 <h1>Category: {movie.category}</h1>
                 <h2>Description: {movie.description}</h2>
                 <h2>Year Released: {movie.year_released}</h2>
