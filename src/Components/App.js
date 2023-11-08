@@ -99,8 +99,9 @@ function App() {
           element: <>
             {/* <MovieSearch setSearchText={setSearchText} />
             <MovieDropdown handleSort={handleSort} /> */}
-            <MovieList movies={filteredMovies} handleDelete={handleDelete}/>
             <SearchAndDropdown setSearchText={setSearchText} handleSort={handleSort}/>
+            <MovieList movies={filteredMovies} handleDelete={handleDelete}/>
+            
           </>
         },
         {

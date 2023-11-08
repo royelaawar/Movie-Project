@@ -6,7 +6,7 @@ html body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: dimgray;
+  background-color: rgb(58, 57, 57);
   
   width: 100vw;
   overflow-x: hidden;
@@ -15,6 +15,12 @@ html body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: black;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
 #profile-button{
@@ -48,6 +54,7 @@ code {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   height: 200px; /* Adjust the height as needed */
+  margin-top: 3rem;
 }
 
 @keyframes moveRightToLeft {
@@ -68,12 +75,6 @@ code {
   /* Add more styles as needed */
 }
 
-.card {
-  width: 35rem;
-  margin: 0 auto; /* Horizontally center the element */
-  text-align: center; 
-}
-
 .card-body {
   font-size: 20px;
   
@@ -82,4 +83,32 @@ code {
 .year-released {
   position: absolute;
   right: 5rem;
+}
+
+.card-darker {
+  width: 38rem;
+  display: inline-block;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin-top: 4rem
+}
+
+.list-group-flush {
+  background-color: black;
+  /* color: white; */
+}
+
+.list-group-item {
+  color: white;
+  background-color: black;
+}
+
+.accordion-item {
+  border: 3px solid #000; 
+  border-radius: 10px; /* Adjust the border radius as needed */
+  padding: .1rem; /* Adjust the padding as needed */
+  box-shadow: .1rem .1rem 1rem 0rem rgba(0, 0, 0, 1);
 }

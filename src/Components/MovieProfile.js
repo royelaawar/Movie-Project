@@ -85,8 +85,9 @@ function MovieProfile({ movies }) {
     // </div>
     // )
     return (
-        <Card style={{ width: '38rem', display: 'inline-block' }}>
+        <Card className= 'card-darker'>
             <Card.Body>
+                <Card.Title><h2><strong>{movie.name}</strong></h2></Card.Title>
                 <iframe
                     width="560"
                     height="315"
@@ -97,11 +98,12 @@ function MovieProfile({ movies }) {
                     allowfullscreen
                 ></iframe>
             </Card.Body>
-            <Card.Body>
-                <Card.Title><strong>{movie.name}</strong></Card.Title>
-                <Card.Text>{movie.description}</Card.Text>
-            </Card.Body>
+            {/* <Card.Body> */}
+                {/* <Card.Title><h2><strong>{movie.name}</strong></h2></Card.Title> */}
+                {/* <Card.Text>{movie.description}</Card.Text> */}
+            {/* </Card.Body> */}
             <ListGroup className="list-group-flush">
+                {/* <ListGroup.Item><strong>Title: </strong>{movie.name}</ListGroup.Item> */}
                 <ListGroup.Item><strong>Category: </strong>{movie.category}</ListGroup.Item>
                 <ListGroup.Item><strong>Year Released: </strong>{movie.year_released}</ListGroup.Item>
                 <ListGroup.Item><strong>Box Office Earnings: </strong>{movie.box_office_earnings}</ListGroup.Item>

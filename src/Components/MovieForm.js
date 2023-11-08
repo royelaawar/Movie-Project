@@ -27,7 +27,7 @@ function MovieForm({ updateFormData, addMovie }) {
     const navigate = useNavigate();
     return (
         <div className="new-movie-form" style={{display: 'inline-block'}}>
-            <Card style={{ width: '35rem' }} >
+            <Card style={{ width: '35rem', marginTop:'4rem', marginBottom: '4rem'}} >
                 <Card.Body>
                     <Card.Title><strong>Add a Movie:</strong></Card.Title>
                 </Card.Body>
@@ -67,7 +67,7 @@ function MovieForm({ updateFormData, addMovie }) {
                         <Form.Label>Box Office Earnings:</Form.Label>
                         <Form.Control type="text" placeholder="Enter Box Office Earnings..." onChange={updateFormData} name="box_office_earnings" />
                     </Form.Group>
-                    <Button type='submit' >Add Movie</Button>
+                    <Button type='submit' style={{marginBottom: '2rem'}} >Add Movie</Button>
                 </Form>
             </Card>
             {/* <form onSubmit={(event) => {

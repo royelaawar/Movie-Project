@@ -13,7 +13,7 @@ const VideoBackground = () => {
       right: 0,
       left: 0,
       bottom: 0,
-      opacity: "85%",
+      opacity: "55%",
       objectFit: 'contain',
     }} src={backgroundVideo} muted autoPlay loop id='backgroundVideo'></video>
   );
