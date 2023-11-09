@@ -1,19 +1,15 @@
-import React from "react"
 import Movie from "./Movie"
 
+function MovieList({movies, handleDelete}){
 
-function MovieList({movies}){
+    const movieComponents = movies.map(movie => {
+        console.log(movie)
+        return <Movie key={movie.id} movie={movie} handleDelete={handleDelete}/>
+    })
 
-
-const movieComponents = movies.map(movie => {
-return <Movie key={movie.id} movie={movie}/>
-})
-
-
-return <ul>
-{movieComponents}
-</ul>
+    return <div id="movieList" style={{padding: "10rem"}}>
+        {movieComponents}
+    </div>
 }
-
 
 export default MovieList
