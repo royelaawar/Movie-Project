@@ -12,6 +12,147 @@ html body {
   overflow-x: hidden;
 }
 
+
+#Greeting {
+  font-size: 90px;
+  color: gold !important;
+  font-family: fantasy;
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+#PlayBtn {
+  filter: drop-shadow(0px 0px 5px black);
+  /* width: 80px; */
+  /* height: 80px; */
+  width: 100%;
+  /* flex-grow: 100; */
+  animation: playbtn 1s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#actualPlayBtn {
+  clip-path: polygon( 0 0, 100% 50%, 100% 50%, 0% 100% );
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  /* animation: triangle 1s infinite; */
+  display: flex;
+  justify-content: space-around;
+
+  transition: clip-path 10s, width 10s, height 10s;
+
+  /* clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100% );
+  width: 100%;
+  height: 500px; */
+
+}
+
+#actualPlayBtn > span {
+  position: absolute;
+  top: 180px;
+  font-size: 40px;
+  opacity: 0;
+  transition: opacity 18s;
+}
+
+#actualPlayBtn[play-pushed="true"]{
+  /* animation: triangle 1s 1; */
+  clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100% );
+  width: 100%;
+  height: 500px;
+}
+#actualPlayBtn[play-pushed="true"] > span {
+  opacity: 1;
+}
+.spotLight {
+  height: 100%;
+  width: 5px;
+  background-color: gold;
+  animation: spotLights 3s infinite;
+  clip-path: polygon( 50% 100%, 0% 0%, 100% 0% );
+  opacity: 0.5;
+}
+
+
+
+#PlayBtn > div > .spotLight:first-child {
+  animation-delay: 1.5s;
+}
+
+#PlayBtn > div > .spotLight:nth-child(3) {
+  animation-delay: 2.5s;
+}
+
+#PlayBtn > div > .spotLight:nth-child(4) {
+  animation-delay: 3.25s;
+
+  scale: (-1,1);
+}
+
+
+@keyframes spotLights {
+  0% {
+    width: 0px;
+    /* transform: skewX(); */
+    transform: skewX(0deg);
+
+
+  }
+
+  25% {
+    transform: skewX(-50deg);
+
+  }
+  75% {
+    width: 200px;
+    transform: skewX(50deg);
+    /* clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100% ); */
+
+  }
+  100% {
+    transform: skewX(0deg);
+
+  }
+  
+}
+
+@keyframes triangle {
+  0% {
+    /* clip-path: polygon( 100% 0%, 100% 100%, 0% 100% ); */
+    width: 80px;
+  }
+  50% {
+    /* clip-path: polygon( 0% 0%, 100% 50%, 0% 100% ); */
+  }
+  100% {
+    clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% 100% );
+    width: 100%;
+    height: 500px;
+    /* opacity: 0.5; */
+
+  }
+
+}
+
+@keyframes playbtn {
+  0% {
+    filter: drop-shadow(0px 0px 5px gold);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 15px gold);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 5px gold);
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -45,8 +186,11 @@ code {
 .photos-container {
   display: flex;
   /* flex-wrap: nowwrap; */
-  animation: moveRightToLeft 45s linear infinite;
+  /* animation: moveRightToLeft 45s linear infinite; */
+  animation: initCarousel 15s linear;
+  /* animation-delay: 1s; */
   width: max-content;
+  /* transform: translateX(100vw);  */
 
 }
 
@@ -57,12 +201,22 @@ code {
   margin-top: 3rem;
 }
 
-@keyframes moveRightToLeft {
+@keyframes initCarousel {
   0% {
-    transform: translateX(100%); 
+    transform: translateX(0); 
   }
   100% {
-    transform: translateX(-100%); 
+    transform: translateX(-102%); 
+  }
+}
+
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100vw); 
+  }
+  100% {
+    transform: translateX(-102%); 
   }
 }
 
@@ -112,3 +266,46 @@ code {
   padding: .1rem; /* Adjust the padding as needed */
   box-shadow: .1rem .1rem 1rem 0rem rgba(0, 0, 0, 1);
 }
+
+.formSections{
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s, opacity 0.5s;
+  opacity: 0;
+  [is-active="true"] {
+    background-color: red;
+  }
+}
+
+.formSections[is-active="true"] {
+  opacity: 1;
+  max-height: 500px;
+
+}
+
+#formNaviBtnHolster {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.formNavBtns {
+  transition: max-width 0.75s, padding 0.75s, color 0.75s, opacity .25s;
+  max-width: 100px;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+}
+
+.formNavBtns[display-on="false"] {
+  opacity: 0;
+  max-width: 0px;
+  touch-action: none;
+  pointer-events: none;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0);
+}
+

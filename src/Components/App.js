@@ -1,6 +1,6 @@
 import '../App.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import {useState, useEffect} from "react"
+import {useState, useEffect, useRef} from "react"
 
 import Home from "./Home"
 import MovieList from "./MovieList"
@@ -88,10 +88,8 @@ function App() {
           path: "/",
           element: <>
           <HomeCardComponent/>,
-          <audio controls autoPlay preload="auto">
-                <source src={audioFile} type="audio/mp3" />
-            </audio>
-            </>
+          
+          </>
           
         },
         {

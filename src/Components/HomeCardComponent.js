@@ -1,9 +1,55 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom'
+import audioFile from "./sound.mp3"
 
 const CardComponent = () => {
+
+  const audioRef = useRef( );
+  console.log( audioRef );
+  const [ playScene, playPush ] = useState( false );
+
+  useEffect(( ) => { 
+    if( audioRef.current ) {
+      try {
+        // audioRef.current.play( );
+        
+      } catch (error) {
+        console.log( error );        
+      }
+    }
+  }, [ audioRef ]);
+
+  useEffect(( ) => {
+    if( !playScene ) return;
+    audioRef.current.play( );
+
+
+  }, [ playScene ]);
+
+  const handleBtn = ( ) => {
+    audioRef.current.play( );
+    setTimeout(( ) => playPush( true ), 5000);
+  };
+
+  const trigger = playScene.toString( );
   return (
-    <h1>HELLO</h1>
+    <div id="Greeting" style={{ textShadow: "2px 2px 0 black, -2px 2px 0 black,-2px -2px 0 black, 2px -2px 0 black", color: "white" }}>
+      <span>
+        Welcome to Movie Mania!
+      </span>
+      <div onClick={ handleBtn  } id="PlayBtn" play-pushed={ trigger }>
+        <div id="actualPlayBtn" play-pushed={ trigger }>
+          <div className='spotLight'/>
+          <div className='spotLight'/>
+          <div className='spotLight'/>
+          <div className='spotLight'/>
+          <span>Your exclusive movie library..</span>
+        </div>
+      </div>
+      <audio controls preload="auto" ref={ audioRef } style={{ visibility: "hidden"}}>
+        <source src={audioFile} type="audio/mp3" />
+      </audio>
+    </div>
     // <div className="card" style={{ width: '35rem' }}>
     //   <img src="" className="card-img-top" alt="..." />
     //   <div className="card-body">
@@ -18,3 +64,4 @@ const CardComponent = () => {
 };
 
 export default CardComponent;
+
