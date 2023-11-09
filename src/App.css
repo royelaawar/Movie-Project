@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
 .App-logo {
@@ -43,8 +43,9 @@
 }
 
 #movieList {
-  padding-top: 6rem !important;
+  padding-top: 2rem !important;
 }
+
 /* #background-video {
   position: absolute;
   top: 0;

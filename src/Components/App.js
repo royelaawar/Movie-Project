@@ -88,6 +88,14 @@ function App() {
       const alphaReverse = [...movies].sort((a, b) => a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1);
       setMovies(alphaReverse);
     }
+    else if(event.target.value === 'yearAsc') {
+      const yearAsc = [...movies].sort((a, b) => Number(a.year_released) - Number(b.year_released));
+      setMovies(yearAsc);
+    }
+    else if(event.target.value === 'yearDesc') {
+      const yearDesc = [...movies].sort((a, b) => Number(b.year_released) - Number(a.year_released));
+      setMovies(yearDesc);
+    }
   }
 
   function handleDelete(name, id) {
@@ -104,7 +112,7 @@ function App() {
       path: "/",
       element: <>
         <VideoBackground />
-        <Home />
+        <Home movies={movies} />
       </>,
       children: [
         {

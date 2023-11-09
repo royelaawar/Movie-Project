@@ -34,36 +34,39 @@ function MovieProfile({ movies }) {
     // </div>
     // )
     return (
-        <Card style={{ width: '38rem', display: 'inline-block' }}>
-            {/* <Card.Img variant="top" src={movie.trailer}  /> */}
-            <Card.Body>
-                <iframe
-                    width="560"
-                    height="315"
-                    src={movie.trailer}
-                    title={movie.name}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                ></iframe>
-            </Card.Body>
-            <Card.Body>
-                <Card.Title><strong>{movie.name}</strong></Card.Title>
-                <Card.Text>{movie.description}</Card.Text>
-            </Card.Body>
-            <ListGroup className="list-group-flush">
-                <ListGroup.Item><strong>Category: </strong>{movie.category}</ListGroup.Item>
-                <ListGroup.Item><strong>Year Released: </strong>{movie.year_released}</ListGroup.Item>
-                <ListGroup.Item><strong>Box Office Earnings: </strong>{movie.box_office_earnings}</ListGroup.Item>
-                <ListGroup.Item><strong>Director: </strong>{movie.director}</ListGroup.Item>
-                <ListGroup.Item><strong>Main Cast: </strong>{movie.main_cast_members}</ListGroup.Item>
-            </ListGroup>
-            <Card.Body>
-                {/* <Card.Link href="/movies">Go to Movies</Card.Link> */}
-                <Button variant="primary" href="/movies">Back to Movies</Button>
-                {/* <Card.Link to={`/movies`} id="profileLink" style={{color: "white"}} >Back to Movies</Card.Link> */}
-            </Card.Body>
-        </Card>
+        <div style={{display: 'flex', justifyContent: 'center', alignContent: 'center', paddingBottom: '4rem'}}>
+            <Card style={{ width: '38rem', display: 'inline-block', backgroundColor: 'black', color: 'white', border: '2px solid white', borderRadius: '10px', marginTop: '4rem', boxShadow: "0.1rem 0.1rem 1rem 0.3rem rgba(0, 0, 0, 1)" }}>
+                {/* <Card.Img variant="top" src={movie.trailer}  /> */}
+                <Card.Body>
+                    <Card.Title style={{textAlign: 'center'}}><h2><strong>{movie.name}</strong></h2></Card.Title>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src={movie.trailer}
+                        title={movie.name}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                    ></iframe>
+                </Card.Body>
+                {/* <Card.Body>
+                    <Card.Title><strong>{movie.name}</strong></Card.Title>
+                    <Card.Text>{movie.description}</Card.Text>
+                </Card.Body> */}
+                <ListGroup className="list-group-flush" >
+                    <ListGroup.Item><h5><strong >Category: </strong><span className="span">{movie.category}</span></h5></ListGroup.Item>
+                    <ListGroup.Item><h5><strong >Year Released: </strong><span className="span">{movie.year_released}</span></h5></ListGroup.Item>
+                    <ListGroup.Item><h5><strong >Box Office Earnings: </strong><span className="span">{movie.box_office_earnings}</span></h5></ListGroup.Item>
+                    <ListGroup.Item><h5><strong >Director: </strong><span className="span">{movie.director}</span></h5></ListGroup.Item>
+                    <ListGroup.Item><h6><strong >Main Cast: </strong><span className="span">{movie.main_cast_members}</span></h6></ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    {/* <Card.Link href="/movies">Go to Movies</Card.Link> */}
+                    <Button variant="primary" href="/movies" style={{display: 'flex', justifyContent: 'center'}}>Back to Movies</Button>
+                    {/* <Card.Link to={`/movies`} id="profileLink" style={{color: "white"}} >Back to Movies</Card.Link> */}
+                </Card.Body>
+            </Card>
+        </div>
     );
 }
 
