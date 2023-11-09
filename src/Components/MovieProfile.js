@@ -33,12 +33,14 @@ function MovieProfile({ movies }) {
     //     <Link to="/movies" >Back to Movies</Link>
     // </div>
     // )
+
+
     return (
-        <div style={{display: 'flex', justifyContent: 'center', alignContent: 'center', paddingBottom: '4rem'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', paddingBottom: '4rem' }}>
             <Card style={{ width: '38rem', display: 'inline-block', backgroundColor: 'black', color: 'white', border: '2px solid white', borderRadius: '10px', marginTop: '4rem', boxShadow: "0.1rem 0.1rem 1rem 0.3rem rgba(0, 0, 0, 1)" }}>
                 {/* <Card.Img variant="top" src={movie.trailer}  /> */}
                 <Card.Body>
-                    <Card.Title style={{textAlign: 'center'}}><h2><strong>{movie.name}</strong></h2></Card.Title>
+                    <Card.Title style={{ textAlign: 'center' }}><h2><strong>{movie.name}</strong></h2></Card.Title>
                     <iframe
                         width="560"
                         height="315"
@@ -62,7 +64,7 @@ function MovieProfile({ movies }) {
                 </ListGroup>
                 <Card.Body>
                     {/* <Card.Link href="/movies">Go to Movies</Card.Link> */}
-                    <Button variant="primary" href="/movies" style={{display: 'flex', justifyContent: 'center'}}>Back to Movies</Button>
+                    <Button variant="primary" href="/movies" style={{ display: 'flex', justifyContent: 'center' }}>Back to Movies</Button>
                     {/* <Card.Link to={`/movies`} id="profileLink" style={{color: "white"}} >Back to Movies</Card.Link> */}
                 </Card.Body>
             </Card>

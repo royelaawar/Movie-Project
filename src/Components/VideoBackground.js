@@ -15,6 +15,7 @@ const VideoBackground = () => {
       bottom: 0,
       opacity: "60%",
       objectFit: 'contain',
+      filter: 'blur(4px)'
     }} src={backgroundVideo} muted autoPlay loop id='backgroundVideo'></video>
   );
 };

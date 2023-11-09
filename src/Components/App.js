@@ -36,6 +36,7 @@ import MovieProfile from './MovieProfile';
 // import MovieDropdown from './MovieDropdown';
 import VideoBackground from './VideoBackground';
 import SearchAndDropdown from './SearchAndDropdown';
+import HomeCardComponent from './HomeCardComponent';
 
 function App() {
 
@@ -117,7 +118,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <h1>Welcome to our Movie Database</h1>
+          element: <HomeCardComponent />
         },
         {
           path: "/movies",
